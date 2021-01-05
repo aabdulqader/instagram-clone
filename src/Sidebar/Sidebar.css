@@ -1,0 +1,49 @@
+.sidebar {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  position: fixed;
+  right: 14%;
+  top: 40px;
+  width: 22%;
+}
+.sidebar h5 {
+  font-size: 14px;
+}
+.userName {
+  margin-left: 1rem;
+}
+.userName:hover {
+  text-decoration: underline;
+}
+.user {
+  margin-top: 2rem;
+}
+.user__avatar {
+  width: 55px !important;
+  height: 55px !important;
+}
+
+.user__switch {
+  color: #57b8f7;
+}
+
+.suggestion__title {
+  margin: 1rem 0;
+}
+.sug_title {
+  color: gray;
+}
+.suggestion_user {
+  margin-bottom: 1rem;
+}
+
+.sidebar__footer {
+  color: #c7c7c7;
+  font-size: 14px;
+  margin-top: 2rem;
+}
+
+.sidebar__footer p:last-child {
+  margin-top: 1rem;
+  font-size: 13px;
+}

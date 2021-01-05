@@ -1,0 +1,31 @@
+.header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #dbdbdb;
+  padding: 0.6rem 11rem;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+.header__links {
+}
+
+.header__logo {
+  object-fit: contain;
+}
+
+@media screen and (min-width: 1500px) {
+  .header {
+    padding: 0.6rem 16rem;
+  }
+}
+@media screen and (max-width: 1090px) {
+  .header {
+    padding: 0.6rem 7rem;
+  }
+}
+@media screen and (max-width: 720px) {
+  .header {
+    padding: 0.6rem 1rem;
+  }
+}

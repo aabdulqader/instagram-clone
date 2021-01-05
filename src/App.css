@@ -1,0 +1,50 @@
+.app {
+  position: relative;
+}
+
+.post_body {
+  display: flex;
+  position: relative;
+  max-width: 1000px;
+  margin: 5.5rem auto 0 auto;
+}
+
+.posts {
+  flex: 0.65;
+}
+.sidebar {
+  flex: 0.35;
+}
+
+.search-input::placeholder {
+  text-align: center;
+}
+.search-input {
+  text-align: center;
+  padding: 0.3rem;
+  border: 1px solid #c1c1c1c1;
+  outline: none;
+}
+
+@media screen and (max-width: 1090px) {
+  .post_body {
+    max-width: 600px;
+    margin: 5.5rem auto 0 auto;
+  }
+
+  .sidebar {
+    display: none;
+  }
+  .posts {
+    flex: 1;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .sidebar {
+    display: none;
+  }
+  .posts {
+    flex: 1;
+  }
+}

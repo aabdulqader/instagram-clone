@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #fafafa;
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+/* Utills */
+
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.item-center {
+  align-items: center;
+}
+
+.hoverable:hover {
+  cursor: pointer;
+}
+
+.text-center {
+  text-align: center;
+}

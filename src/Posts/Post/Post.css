@@ -1,0 +1,72 @@
+.post {
+  border: 1px solid #c1c1c1;
+  background-color: #ffffff;
+  margin-bottom: 4rem;
+  border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+  -ms-border-radius: 0.2rem;
+  -o-border-radius: 0.2rem;
+}
+.post__text {
+  font-weight: normal;
+  padding: 1rem;
+}
+.post_header {
+  padding: 0.6rem 1rem;
+}
+.post__avatar {
+  margin-right: 1rem;
+  width: 32px !important;
+  height: 32px !important;
+}
+
+.post__username:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.post_image {
+  width: 100%;
+  object-fit: contain;
+}
+
+.post__commentBox {
+  margin: 1rem 0 0 0;
+  border-top: 1px solid #c1c1c1;
+}
+.post__input {
+  padding: 1.5rem 1rem 1rem 1rem;
+  width: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+  font-size: 15px;
+}
+.post__button {
+  border: none;
+  padding: 1rem;
+  background-color: transparent;
+  font-size: 14px;
+  outline: none;
+}
+.post__button:enabled {
+  color: #0095f6;
+  font-weight: bold;
+}
+.post__button:hover {
+  cursor: pointer;
+}
+
+.commnets-displayBox {
+  padding: 0.5rem 1rem;
+}
+.commnets-displayBox > h4 {
+  font-weight: normal;
+  margin-bottom: 0.3rem;
+}
+
+.commnets-displayBox > h4 > strong:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
